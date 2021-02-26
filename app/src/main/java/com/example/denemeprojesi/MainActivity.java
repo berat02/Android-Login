@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                builder.setMessage("Girmek istediğne eminmisin iyi düşün:) ?")
+                builder.setMessage("Girmek istediğne eminmisin ?")
                         .setCancelable(false)
                         .setPositiveButton("Evet", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
